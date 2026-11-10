@@ -10,5 +10,6 @@ class LinkedList:
         self.tail = new_node
         self.length = 1
 
-my_linkedlist = LinkedList(3)
-print(my_linkedlist.head.value)
+my_linked_list = LinkedList(2)
+
+print(my_linked_list.head.value)

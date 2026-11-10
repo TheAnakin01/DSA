@@ -44,6 +44,13 @@ class LinkedList:
             self.tail = new_node
         self.length += 1
 
+    def pop(self, value):
+        pre = self.tail
+        temp = self.next
+        if temp.next is not None:
+            temp.next.next
+
+
 
 
 my_linked_list = LinkedList(1)
